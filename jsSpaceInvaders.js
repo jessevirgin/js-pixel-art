@@ -1,0 +1,22 @@
+var c = document.getElementById("jsSpaceInvaders");
+var ctx = c.getContext("2d");
+            
+ctx.beginPath();
+ctx.fillStyle = "black";
+ctx.fillRect(110,30,70,10);
+ctx.fillRect(120,20,10,10);
+ctx.fillRect(160,20,10,10);
+ctx.fillRect(110,10,10,10);
+ctx.fillRect(170,10,10,10);
+ctx.fillRect(170,30,10,50);
+ctx.fillRect(110,30,10,50);
+ctx.fillRect(100,40,10,20);
+ctx.fillRect(90,50,10,30);
+ctx.fillRect(180,40,10,20);
+ctx.fillRect(190,50,10,30);
+ctx.fillRect(150,80,20,10);
+ctx.fillRect(120,80,20,10);
+ctx.fillRect(120,60,50,10);
+ctx.fillRect(120,50,50,10);
+ctx.fillRect(130,40,30,10);
+ctx.fill();

@@ -1,0 +1,35 @@
+var c = document.getElementById("jsBlinkyPacMan");
+var ctx = c.getContext("2d");
+
+ctx.fillStyle = "red";
+ctx.beginPath();
+ctx.fillRect(140,10,40,10);
+ctx.fillRect(180,20,20,10);
+ctx.fillRect(120,30,90,10);
+ctx.fillRect(210,40,10,10);
+ctx.fillRect(220,70,10,80);
+ctx.fillRect(210,80,10,60);
+ctx.fillRect(200,90,10,40);
+ctx.fillRect(190,90,10,50);
+ctx.fillRect(180,80,10,70);
+ctx.fillRect(170,10,10,140);
+ctx.fillRect(160,10,10,120);
+ctx.fillRect(150,80,10,50);
+ctx.fillRect(140,90,10,60);
+ctx.fillRect(130,90,10,60);
+ctx.fillRect(120,80,10,60);
+ctx.fillRect(110,40,10,90);
+ctx.fillRect(100,50,10,90);
+ctx.fillRect(90,70,10,80);
+ctx.fillRect(120,20,40,10);
+ctx.fillRect(110,30,10,10);
+ctx.fillRect(120,40,10,10);
+ctx.fillRect(150,40,10,10);
+ctx.fillRect(180,40,10,10);
+ctx.fill();
+
+ctx.beginPath();
+ctx.fillStyle = "blue";
+ctx.fillRect(200,60,20,20);
+ctx.fillRect(140,60,20,20);
+ctx.fill();
